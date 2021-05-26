@@ -5,13 +5,13 @@ Big Thank To Ivanzz🍎🍓🌶😡👹👺💃👠⛑🏓🎯❤❣
 
 #HOW TO USE
 
-`Install Nodejs\n
+```Install Nodejs\n
 
 Install FFMPEG\n
 
 Install LIBWEBP\n
 
-DAH ITU AJA`
+DAH ITU AJA```
 
 #RUNNING AND INSTALL MODULE
 
