@@ -2,8 +2,10 @@
 Big Thank To Ivanzz🍎🍓🌶😡👹👺💃👠⛑🏓🎯❤❣
 
 # OPEN SOURCE AKIBAT ORANG GA PUNYA HATI
-
+# BELI RDP DLU ATUH Only RDP/VPS/LAPTOP BPK KAU
+# SC Bug? error? Chat my in wa.me/6287811078485
 #HOW TO USE
+
 
 ```Install Nodejs
 
@@ -24,3 +26,6 @@ or
 npm i install`
 npm start`
 node anto.js
+```
+#SPECIAL THANKS TO
+#BESOK GW SEARCH 1 1 YE 
