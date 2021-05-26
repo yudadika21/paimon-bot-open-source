@@ -8,6 +8,7 @@ Big Thank To Ivanzz🍎🍓🌶😡👹👺💃👠⛑🏓🎯❤❣
 
 
 ```Install Nodejs
+Install Node Js
 
 Install FFMPEG
 
@@ -28,4 +29,5 @@ npm start`
 node anto.js
 ```
 #SPECIAL THANKS TO
+
 #BESOK GW SEARCH 1 1 YE 
