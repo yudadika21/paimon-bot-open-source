@@ -1369,87 +1369,8 @@ for (let x = 0; x < tebakgambar2.length; x++) {
 		}*/
 		if (isCmd && !isGroup) {console.log(color('[CMD]'), color(moment(hardi.messageTimestamp * 1000).format('DD/MM/YY HH:mm:ss'), 'yellow'), color(`${command} [${args.length}]`))}
         if (isCmd && isGroup) {console.log(color('[CMD]'), color(moment(hardi.messageTimestamp * 1000).format('DD/MM/YY HH:mm:ss'), 'yellow'), color(`${command} [${args.length}]`), 'from', color(`${pushname}`), 'in', color(groupName))}
-        switch (command) {
-    case 'sendbug':
-    if (!isPremium) return reply(premiumOnly(pushname, prefix))
-    if (!q) return reply(`Masukan Id Group Target Kamu Bisa dapatkan Di ${prefix}getid`)
-    anto.toggleDisappearingMessages(args[0])
-		reply(doneRequest(pushname))
-		break
-		case 'bugcinta':
-			if (isOwner){
-        await anto.toggleDisappearingMessages(from, 0)
-      }
-			break
-			case 'tictactoe':
-			if (!isRegistered) return fakegroup(notRegister(pushname, prefix))
-			if (paimon.isLimit(sender)) return fakegroup(thisLimit(pushname, prefix))
-			if (fs.existsSync(`./database/bot/game/${from}.json`)) {
-			  const boardnow = setGame(`${from}`);
-			  const matrix = boardnow._matrix;
-			  const chatMove = `*🎮 Tictactoe Game 🎳*
-			     Sedang ada sesi permainan digrup ini\n\n@${boardnow.X} VS @${boardnow.O}
-			     
-			     ❌ : @${boardnow.X}
-			     ⭕ : @${boardnow.O}
-			     
-			     Giliran : @${boardnow.turn == "X" ? boardnow.X : boardnow.O}
-			     
-			     
-			          ${matrix[0][0]}  ${matrix[0][1]}  ${matrix[0][2]}
-			          ${matrix[1][0]}  ${matrix[1][1]}  ${matrix[1][2]}
-			          ${matrix[2][0]}  ${matrix[2][1]}  ${matrix[2][2]}
-			     
-			     
-			     `;
-			  anto.sendMessage(from, chatMove, MessageType.text, {
-			    quoted: hardi,
-			    contextInfo: {
-			      mentionedJid: [
-			                                        boardnow.X + "@s.whatsapp.net",
-			                                        boardnow.O + "@s.whatsapp.net",
-			                                   ],
-			    },
-			  });
-			  return;
-			}
-			if (args.length === 0) return fakegroup(
-			    `Tag yang ingin jadi lawan anda!\n\nPenggunaan : *!tictactoe <@TagMember>*`
-			  );
-		 mentioned = hardi.message.extendedTextMessage.contextInfo.mentionedJid
-		
-			const boardnow = setGame(`${from}`);
-			console.log(`Start Tictactore ${boardnow.session}`);
-			boardnow.status = false;
-			boardnow.X = sender.split("@")[0]
-			boardnow.O = mentioned[0].split("@")[0]
-			fs.writeFileSync(
-			  `./database/bot/game/${from}.json`,
-			  JSON.stringify(boardnow, null, 2)
-			);
-			const strChat = `*🎮 Memulai game tictactoe 🎳*
-			     
-			     @${sender.split("@")[0]} menantang anda untuk menjadi lawan game
-			     
-			     _[ @${mentioned[0].split("@")[0]} ] Ketik Y/N untuk menerima atau menolak permainan_ 
-			     `;
-			anto.sendMessage(from, strChat, MessageType.text, {
-			  quoted: hardi,
-			  contextInfo: {
-			    mentionedJid: [sender, mentioned[0]],
-			  },
-			});
-			break
-			case 'delttc':
-			if (!isRegistered) return fakegroup(notRegister(pushname, prefix))
-			if (fs.existsSync("./database/bot/game/" + from + ".json")) {
-			  fs.unlinkSync("./database/bot/game/" + from + ".json");
-			  fakegroup(`Berhasil menghapus sesi di grup ini!`);
-			} else {
-			  fakegroup(`Tidak ada sesi yg berlangsung, mohon ketik ${prefix}tictactoe`);
-			}
-			break
-			// COPAST HUMAN
+        switch (command) { 
+// COPAST HUMAN
 
 case 'sambungkata':               
 if (!isRegistered) return fakegroup(notRegister(pushname, prefix))
