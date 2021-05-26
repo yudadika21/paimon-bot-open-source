@@ -5,21 +5,22 @@ Big Thank To Ivanzz🍎🍓🌶😡👹👺💃👠⛑🏓🎯❤❣
 
 #HOW TO USE
 
-```Install Nodejs\n
+```Install Nodejs
 
-Install FFMPEG\n
+Install FFMPEG
 
-Install LIBWEBP\n
+Install LIBWEBP
 
 DAH ITU AJA```
 
 #RUNNING AND INSTALL MODULE
 
-`npm i -g pm2`
+npm i 
+npm i -g pm2
+pm2 start anto.js
 
-`pm2 start anto.js`
 or
-`npm i install`
-`npm start`
 
-`node anto.js`
+npm i install`
+npm start`
+node anto.js
