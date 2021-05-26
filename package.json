@@ -1,5 +1,5 @@
 {
-  "name": "paimon-bot-self",
+  "name": "paimon-bot-open-source",
   "version": "0.0.7",
   "description": "No",
   "main": "anto.js",
@@ -50,10 +50,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zennn08/BaseSelfBot.git"
+    "url": "git+https://github.com/hardiantojek93/paimon-bot-open-source.git"
   },
   "bugs": {
-    "url": "https://github.com/zennn08/BaseSelfBot/issues"
+    "url": "https://github.com/hardiantojek93/paimon-bot-open-source/issues"
   },
-  "homepage": "https://github.com/zennn08/BaseSelfBot#readme"
+  "homepage": "https://github.com/hardiantojek93/paimon-bot-open-source#readme"
 }
