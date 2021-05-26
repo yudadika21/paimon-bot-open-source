@@ -11,6 +11,6 @@ DAH ITU AJA```
 ``` npm i -g pm2```
 ``` pm2 start anto.js```
 or
-```npm i install```
+`npm i install`
 ```npm start```
 ```node anto.js```
