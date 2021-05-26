@@ -1,5 +1,4 @@
-# paimon-bot-open-source
-Big Thank To Ivanzz🍎🍓🌶😡👹👺💃👠⛑🏓🎯❤❣
+# Lord Ivanzz Nih boss
 
 # OPEN SOURCE AKIBAT ORANG GA PUNYA HATI
 # BELI RDP DLU ATUH Only RDP/VPS/LAPTOP BPK KAU
