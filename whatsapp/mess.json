@@ -1,0 +1,18 @@
+{
+    "wait": "*Tunggu permintaan anda sedang diproses*",
+    "error": {
+        "Iv": "Link yang kamu berikan tidak valid",
+        "api": "Maaf terjadi kesalahan"
+    },
+    "OnlyAnto": "Perintah Hanya Untuk Hardianto Sama :)",
+    "doneOwner": "*Sukses Owner Sama*",
+    "OnlyGrup": "Perintah ini hanya bisa digunakan di grup",
+    "OnlyPM": "Perintah ini hanya bisa digunakan di private message",
+    "GrupAdmin": "Perintah ini hanya bisa digunakan oleh Admin Grup",
+    "BotAdmin": "Bot Harus menjadi admin",
+    "limitMax": "*Maaf Kak Kuota Limit Mu habis Silakan tunggu besok atau hubungi owner saya*",
+    "OnlyOwner": "Perintah ini hanya dapat digunakan oleh owner bot",
+    "readyRegis": "*Kamu sudah terdaftar atau nomor kamu sudah dalam database mohon gunakan dengan bijak*",
+    "notRegis": "*DAFTAR*\n\n*_Kamu belum terdaftar dalam database_*\n_contoh_\n*Ketik /daftar hardi|17*",
+    "premiumOnly": "*Hanya kamu ketika menjadi user premium hubungi owner saya*"
+}
