@@ -4,11 +4,11 @@ Big Thank To Ivanzz🍎🍓🌶😡👹👺💃👠⛑🏓🎯❤❣
 # OPEN SOURCE AKIBAT ORANG GA PUNYA HATI
 
 #HOW TO USE
-`Install Nodejs
+`Install Nodejs\n
 
-Install FFMPEG
+Install FFMPEG\n
 
-INSTALL LIBWEBP
+Install LIBWEBP\n
 
 DAH ITU AJA`
 #RUNNING AND INSTALL MODULE
